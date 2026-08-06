@@ -1,7 +1,30 @@
-= Solstice
-:sectnums:
-:toc: left
-:toclevels: 3
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/AMDphreak/orbris.svg?style=for-the-badge[Contributors,link=https://github.com/AMDphreak/orbris/graphs/contributors]
+image:https://img.shields.io/github/forks/AMDphreak/orbris.svg?style=for-the-badge[Forks,link=https://github.com/AMDphreak/orbris/network/members]
+image:https://img.shields.io/github/stars/AMDphreak/orbris.svg?style=for-the-badge[Stars,link=https://github.com/AMDphreak/orbris/stargazers]
+image:https://img.shields.io/github/issues/AMDphreak/orbris.svg?style=for-the-badge[Issues,link=https://github.com/AMDphreak/orbris/issues]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/AMDphreak/orbris.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/AMDphreak/orbris.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/AMDphreak/orbris.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/AMDphreak/orbris.svg?style=for-the-badge[Issues]
+endif::[]
+
+= Solstice (orbris)
+
+A widget-style sun-moon cycle tracker built with D and dlangui.
+
+link:https://github.com/AMDphreak/orbris/issues[Report Bug] ·
+link:https://github.com/AMDphreak/orbris/issues[Request Feature]
+
+== About The Project
 
 A widget-style sun-moon cycle tracker built with D and dlangui.
 
@@ -12,11 +35,20 @@ A widget-style sun-moon cycle tracker built with D and dlangui.
 * Hidden settings menu (top right toggle).
 * Toggleable location display.
 
-== Build Instructions
+== Installation
 
 Depends on `dub` and `dlangui`.
+
+== Usage
 
 [source,powershell]
 ----
 dub run
 ----
+
+== Contact
+
+Ryan Johnson — link:https://twitter.com/amdphreak[@amdphreak]
+
+* Project: https://github.com/AMDphreak/orbris
+* Site: https://ryanjohnson.dev
