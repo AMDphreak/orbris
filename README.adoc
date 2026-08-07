@@ -3,7 +3,27 @@ ifndef::env-github[:icons: font]
 :toclevels: 2
 :sectanchors:
 
-[[readme-top]]
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/AMDphreak/orbris/graphs/contributors"><img src="https://img.shields.io/github/contributors/AMDphreak/orbris.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/AMDphreak/orbris/network/members"><img src="https://img.shields.io/github/forks/AMDphreak/orbris.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/AMDphreak/orbris/stargazers"><img src="https://img.shields.io/github/stars/AMDphreak/orbris.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/AMDphreak/orbris/issues"><img src="https://img.shields.io/github/issues/AMDphreak/orbris.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">Solstice (orbris)</h3>
+<p align="center">
+A widget-style sun-moon cycle tracker built with D and dlangui.<br />
+<a href="https://github.com/AMDphreak/orbris/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/AMDphreak/orbris/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
 image:https://img.shields.io/github/contributors/AMDphreak/orbris.svg?style=for-the-badge[Contributors,link=https://github.com/AMDphreak/orbris/graphs/contributors]
 image:https://img.shields.io/github/forks/AMDphreak/orbris.svg?style=for-the-badge[Forks,link=https://github.com/AMDphreak/orbris/network/members]
 image:https://img.shields.io/github/stars/AMDphreak/orbris.svg?style=for-the-badge[Stars,link=https://github.com/AMDphreak/orbris/stargazers]
@@ -15,6 +35,8 @@ A widget-style sun-moon cycle tracker built with D and dlangui.
 
 link:https://github.com/AMDphreak/orbris/issues[Report Bug] ·
 link:https://github.com/AMDphreak/orbris/issues[Request Feature]
+endif::[]
+
 
 == About The Project
 
